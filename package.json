@@ -10,7 +10,7 @@
     "grunt-newer": "^1.2.0"
   },
   "sn": {
-    "main": "dist/dist.css"
+    "main": "dist/theme.css"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
