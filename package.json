@@ -1,0 +1,25 @@
+{
+  "name": "standard-notes-nord-theme",
+  "version": "0.0.1",
+  "description": "Nord theme for standard notes",
+  "main": "index.js",
+  "devDependencies": {
+    "grunt": "^1.5.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-newer": "^1.2.0"
+  },
+  "sn": {
+    "main": "dist/dist.css"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "grunt"
+  },
+  "author": "Jan Peters",
+  "license": "ISC",
+  "dependencies": {
+    "nord": "^0.2.1",
+    "sass": "^1.51.0"
+  }
+}
